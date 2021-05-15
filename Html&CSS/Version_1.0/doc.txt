@@ -1,0 +1,23 @@
+1.Structure
+2. Text
+-<h1>...., <p>, <b> , <i> , <sup> , <sub> , <br /> , <hr />, <strong> ,<em> ,  <blockquote> or <q> 
+<abbr> , <cite> , <dfn> , <address> , <ins> , <del> , <s> 
+
+
+3. Lists
+4. Links
+5. images
+6. Tables
+7. Forms
+8. Extra Markup
+9. Flash, Video & Audio
+10. Introduction of CSS
+11. Color
+12. Text
+13. Boxes
+14. Flash,Video & Audio
+15. Layout
+16. images
+17. HTML5 Layout
+18. Process & Design
+19. Practice Information
