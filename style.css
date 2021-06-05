@@ -1,0 +1,305 @@
+/* Global style CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 2.6rem;
+}
+
+li,
+label,
+button,
+input,
+p {
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 4.4rem;
+    font-weight: normal;
+}
+h3 {
+    font-size: 3rem;
+    font-weight: normal;
+}
+h4,
+h5{
+    font-size: 2.8rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    
+}
+a.active{
+    background: #586ff0;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    text-decoration: none;
+}
+
+button {
+    padding: 1.5rem 4rem;
+    background: #043cf3;
+    color: white ;
+    border: none;
+    cursor: pointer;
+    border-radius: 20rem ;
+}
+
+button:hover{
+    background: #586ff0;
+}
+
+/* navigation and header */
+.main-head{
+    background: #129CF2;
+    color: white;
+
+}
+
+nav {
+    min-height: 10vh;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+
+
+#logo{
+    flex: 2 1 40rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* hero section */
+.hero{
+    min-height: 90vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.75), transparent), url("/images/hg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.hero h2 {
+    padding: 4rem;
+}
+.hero button {
+    margin: 5rem;
+}
+
+/* benefits section */
+.benefits {
+    min-height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0.5, 0.75), transparent), url("/images/city.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.benefits h2 {
+    padding: 3rem;
+}
+.benefits h3 {
+    padding: 1rem;
+
+}
+
+/* Contact section */
+#contact {
+    min-height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url("/images/city.jpg");
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.form-wrapper {
+    background: rgb(161, 177, 177);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+.form-head{
+    text-align: center;
+    padding: 5rem;
+    color: #000;
+    text-decoration: underline;
+}
+
+.contact label {
+    text-align: left;
+    padding-right: 5rem;
+}
+
+.name-form,
+.email-form,
+.password-form {
+    text-align: right;
+    margin-right: 1.5rem; 
+    padding: 1rem;
+}
+
+.form-wrapper label {
+    margin: 0rem 4rem;
+    text-align: left;
+
+}
+.form-wrapper input {
+    text-align: left;
+    margin-left: 2rem;
+
+}
+#submit{
+    margin-top: 4rem;
+    width: 100%;
+    border-radius: 0px 0px 20px 20px;
+    
+}
+
+
+footer {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 4rem;
+    font-size: 3.8rem;
+    background: rgb(90, 92, 92);
+    color: white;
+}
+
+/* Media query */
+
+/* Extar small device (phone, 600px adn down */
+@media only screen and (max-width: 600px){
+button {
+        font-size: 2rem;
+    }
+    nav{
+       text-align: center;
+    }
+    #logo{
+        padding: 2rem;
+    }
+    h2 {
+        font-size: 3rem;
+    }
+    h3{
+        font-size: 2.4rem;
+    }
+    .contact{
+        font-size: smaller;
+        text-align: center;
+    }
+    label{
+        text-align: center;
+    }
+}
+
+/* Small devices (portail tables and large phone, 600px and up */
+@media only screen and (max-width:500px){
+    .hero{
+        min-height: 100vh;
+
+    }
+    a{
+        font-size: 14px;
+        padding-right: 0.2rem;
+    }
+    #logo{
+        font-size: 2rem;
+    }
+    button{
+        padding-right: 5rem;
+    }
+    .form-wrapper {
+        max-width: 274px;
+        min-height: 340px;
+        text-align: center;
+    }
+    label{
+        text-align: center;
+    }
+    .name-form,
+    .email-form,
+    button,
+    .password-form{
+        text-align: center;
+        padding-right: 0.5rem;
+        margin-right: 0.5rem;
+    }
+    .form-wrapper input{
+        margin-left: 0px;
+    }
+    .form-head {
+        font-size: x-large;
+    }
+
+
+}
+
+/* Medium devices (landscape tables,  768px and up */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large device (laptop/desktops , 992px and up */
+@media only screen and (min-width: 992px) {
+  
+
+}
+
+/* Extra Large device  (laptops /des*/
