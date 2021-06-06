@@ -1,0 +1,120 @@
+1.Structure
+2. Text
+-<h1>...., <p>, <b> , <i> , <sup> , <sub> , <br /> , <hr />, <strong> ,<em> ,  <blockquote> or <q> 
+<abbr> , <cite> , <dfn> , <address> , <ins> , <del> , <s> 
+
+
+3. Lists
+-<ol> , <li>
+-<ul> , <li>
+
+4. Links
+-<a href=" "
+
+5. images
+-<img src="" alt="" />, height, width, 
+-aligning image horizantally ( align, left , right  )
+-aligning image vertically (top, middle , bottom  )
+
+
+6. Tables
+-<table> , <tr> ,  <td> 
+,<th> , colspan, rowspan, 
+<thead>, <tbody> , <tfoot> 
+width, cellpadding, cellspacing
+border, bgcolor
+
+7. Forms
+Adding Text - input, password, textarea, 
+Making choose- radio button, checkboxes, dropdown boxes
+Submitting Forms - Submit buttons, image button, File Upload
+
+
+8. Extra Markup
+
+
+
+9. Flash, Video & Audio
+10. Introduction of CSS
+11. Color
+12. Text
+-size and typeface of text
+-Bold, italic, capitals, underlines
+-spacing, beteween lines, words, and letters
+
+-font-family: Arial;
+-font-size: 12px;
+-font-weight: normal, bold
+-font-style: normal, italic, oblique
+-text-transform: uppercase, lowercase, capitalize
+-text-decoration: none, undeline, line-through, blink
+-line-height: 1.4em;
+-letter-spacing: 0.2rem;
+-word-spacing:1rem;
+-text-align: left, right, center, justify
+-vertical-align: baseline,sub, super, top, text-top, middle, text-bottom
+-text-indent: -9999px;
+-text-shadow: 1px 1px 1px #ff090;
+p.intro:first-letter: font-size: 200%; 
+p.intro:first-line: font-weight: bold;
+a:link -> color: deepink;
+a:visited -> text-decoration: none;
+-:hover
+-:active
+-:focus
+
+
+
+
+
+
+13. Boxes
+-height
+-weight
+-min-width: 450px;
+-max-width: 650px;
+-min-height:10px;
+-max-height: 20px;
+-overflow: hidden, scroll
+-border-width: thin, middem , think
+-border-top-width
+-border-right-width
+-border-bottom-width
+-border-left-width
+
+-border-width: 2px 1px 1px 2px;
+-border-color: #1f1f1f;
+-border: 3px solid #1f1f1f;
+-padding: top, right, left, bottom
+-margin: top, right, left, bottom
+-display: inline, block, inlin-block , none
+-visibility: hidden, visible
+-border-image: url("");
+-box-shadow: -5px -5px #000999;
+-border-radius: 10px;
+
+
+
+
+
+
+
+
+
+
+14. List,and Forms
+
+
+15. Layout
+
+
+16. images
+
+
+17. HTML5 Layout
+
+
+18. Process & Design
+
+
+19. Practice Information
