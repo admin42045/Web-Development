@@ -8,6 +8,11 @@
       -https://idmx.mybalsamiq.com
    
    
+   
+    ############  warning-at cors ###############
+    use - const proxyUrl=`https://cors-anywhere.herokuapp.com/`
+    
+    
      ############## UI & UX #####################
      UI (User Interface )
         -Stands for User Interfce
